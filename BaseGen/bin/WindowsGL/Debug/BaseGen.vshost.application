@@ -14,14 +14,14 @@
     <framework targetVersion="4.0" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="BaseGen.exe.manifest" size="14592">
+    <dependentAssembly dependencyType="install" codebase="BaseGen.exe.manifest" size="14581">
       <assemblyIdentity name="BaseGen.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>5ShLLJ8EYOJa8d7oVmoiYDbvS+o=</dsig:DigestValue>
+        <dsig:DigestValue>yMOWkViKM0OIy6Nx0Surzf5jSIM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

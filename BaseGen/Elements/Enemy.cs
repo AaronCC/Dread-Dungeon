@@ -31,6 +31,9 @@ namespace BaseGen.Elements
         public SpriteEffects flip;
         protected int hearts;
         protected float knockbackSpeed;
+        float colorTimer;
+        float endTime;
+
         public override Vector2 Position
         {
             get
@@ -52,6 +55,8 @@ namespace BaseGen.Elements
         public Enemy(Vector2 _position, string _name) : base(_position, _name)
         {
             gravity = 0.2f;
+            endTime = 300f;
+            colorTimer = endTime + 1;
             state = new States.Enemy.EnemyIdle();
             animStarts = Managers.AssetManager.GetAnimIndexes(name)[0];
             animEnds = Managers.AssetManager.GetAnimIndexes(name)[1];
@@ -66,6 +71,7 @@ namespace BaseGen.Elements
         }
         public void TakeHit(int damage)
         {
+            colorTimer = 0f;
             hearts--;
             if (hearts == 0)
                 SendStateInput(States.Enemy.EStateInput.Dead);
@@ -99,10 +105,15 @@ namespace BaseGen.Elements
                 Rectangle heartRect = new Rectangle(drawRect.X + 5 * x, drawRect.Y, 5, 5);
                 spriteBatch.Draw(heart.sprite, heartRect, Color.White);
             }
-            spriteBatch.Draw(texture.sprite, drawRect, destRect, Color.White, 0.0f, new Vector2(0, 0), flip, 1.0f);
+            if (colorTimer <= endTime)
+                spriteBatch.Draw(texture.sprite, drawRect, destRect, Color.IndianRed, 0.0f, new Vector2(0, 0), flip, 1.0f);
+            else
+                spriteBatch.Draw(texture.sprite, drawRect, destRect, Color.White, 0.0f, new Vector2(0, 0), flip, 1.0f);
         }
         public override void Update(GameTime gameTime)
         {
+            if (colorTimer <= endTime)
+                colorTimer += gameTime.ElapsedGameTime.Milliseconds;
             player = Managers.Executive.level.Player;
             Animate(gameTime);
             base.Update(gameTime);
@@ -145,7 +156,7 @@ namespace BaseGen.Elements
 
         public void SendStateInput(States.Enemy.EStateInput input)
         {
-            if(input == States.Enemy.EStateInput.Stop)
+            if (input == States.Enemy.EStateInput.Stop)
                 velocity = Vector2.Zero;
             States.Enemy.EnemyState newState = state.HandleInput(this, input);
             if (state.GetType() != newState.GetType())

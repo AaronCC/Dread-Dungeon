@@ -88,6 +88,7 @@ namespace BaseGen.Elements
         }
         private bool CheckAttack()
         {
+            
             return Hitbox.Intersects(Managers.Executive.level.Player.Hitbox);
         }
         private bool CheckFalling(TileType below_collision)

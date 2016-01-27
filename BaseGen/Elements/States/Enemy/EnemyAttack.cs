@@ -29,10 +29,13 @@ namespace BaseGen.Elements.States.Enemy
             {
                 case EStateInput.AnimEnd:
                     return new EnemyIdle();
+
+                case EStateInput.Dead:
+                    return new EnemyDead();
                 default:
                     break;
             }
-            return base.HandleInput(enemy, input, this);
+            return this;
         }
         public override void Update(Elements.Enemy enemy, GameTime gameTime)
         {
