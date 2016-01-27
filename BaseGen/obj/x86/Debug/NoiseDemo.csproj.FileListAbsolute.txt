@@ -1,0 +1,15 @@
+C:\Users\Aaron\Desktop\CS Projects\NoiseDemo\NoiseDemo\obj\x86\Debug\NoiseDemo.csprojResolveAssemblyReference.cache
+C:\Users\Aaron\Desktop\CS Projects\NoiseDemo\NoiseDemo\bin\WindowsGL\Debug\Lidgren.Network.dll
+C:\Users\Aaron\Desktop\CS Projects\NoiseDemo\NoiseDemo\bin\WindowsGL\Debug\MonoGame.Framework.dll
+C:\Users\Aaron\Desktop\CS Projects\NoiseDemo\NoiseDemo\bin\WindowsGL\Debug\OpenTK.dll
+C:\Users\Aaron\Desktop\CS Projects\NoiseDemo\NoiseDemo\bin\WindowsGL\Debug\Tao.Sdl.dll
+C:\Users\Aaron\Desktop\CS Projects\NoiseDemo\NoiseDemo\obj\x86\Debug\NoiseDemo.exe
+C:\Users\Aaron\Desktop\CS Projects\NoiseDemo\NoiseDemo\obj\x86\Debug\NoiseDemo.pdb
+C:\Users\Aaron\Desktop\CS Projects\NoiseDemo\NoiseDemo\bin\WindowsGL\Debug\NoiseDemo.exe
+C:\Users\Aaron\Desktop\CS Projects\NoiseDemo\NoiseDemo\bin\WindowsGL\Debug\NoiseDemo.pdb
+C:\Users\Aaron\Desktop\CS Projects\NoiseDemo\NoiseDemo\bin\WindowsGL\Debug\Content\Textures\BlackBack.png
+C:\Users\Aaron\Desktop\CS Projects\NoiseDemo\NoiseDemo\bin\WindowsGL\Debug\Content\Textures\MainMenu.png
+C:\Users\Aaron\Desktop\CS Projects\NoiseDemo\NoiseDemo\bin\WindowsGL\Debug\Content\Textures\WhiteBack.png
+C:\Users\Aaron\Desktop\CS Projects\NoiseDemo\NoiseDemo\bin\WindowsGL\Debug\Content\Textures\GenerateButton.png
+C:\Users\Aaron\Desktop\CS Projects\BaseGen\BaseGen\obj\x86\Debug\NoiseDemo.exe
+C:\Users\Aaron\Desktop\CS Projects\BaseGen\BaseGen\obj\x86\Debug\NoiseDemo.pdb

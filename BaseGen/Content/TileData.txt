@@ -1,0 +1,37 @@
+﻿.;Erase
+p;Start
+-;Top platform
+e;Enemy
+w;Wall
+*;End
+,;Floor spikes
+";Cieling spikes
+<;Right wall spikes
+>;Left wall spikes
+x;Break block
+o;Fireplace
+t;Torch
+s;Sign
+a;Small saw
+@;Large saw
+c;(V)Crusher small no delay
+u;(V)Crusher small delay
+(;(V)Crusher medium no delay
+);(V)Crusher medium delay
+C;(V)Crusher Large no delay
+U;(V)Crusher Large delay
+!;(H)Crusher right Large no delay
+[;(H)Crusher right large delay
+?;(H)Crusher left large no delay
+];(H)Crusher left large delay
+{;(H)Crusher right medium no delay
++;(H)Crusher right medium delay
+};(H)Crusher left medium no delay
+=;(H)Crusher left medium delay
+ ;Back wall
+h;Heart
+_;Bottom platform
+q;Flail
+Q;Flail delayed
+l;Ladder
+m;Minotaur

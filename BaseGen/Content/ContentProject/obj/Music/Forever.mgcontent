@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/Aaron/Documents/GitHub/BaseGen/BaseGen/Content/ContentProject/Music/Forever.MP3</SourceFile>
+  <SourceTime>2016-01-22T18:30:25.6874497-08:00</SourceTime>
+  <DestFile>C:/Users/Aaron/Documents/GitHub/BaseGen/BaseGen/Content/ContentProject/bin/Music/Forever.xnb</DestFile>
+  <DestTime>2016-01-22T18:30:46.1849898-08:00</DestTime>
+  <Importer>Mp3Importer</Importer>
+  <ImporterTime>2015-04-29T10:14:44-07:00</ImporterTime>
+  <Processor>SongProcessor</Processor>
+  <ProcessorTime>2015-04-29T10:14:44-07:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput>
+    <string>C:/Users/Aaron/Documents/GitHub/BaseGen/BaseGen/Content/ContentProject/bin/Music/Forever.wma</string>
+  </BuildOutput>
+</PipelineBuildEvent>

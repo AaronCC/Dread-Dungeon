@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/Aaron/Downloads/Documents/GitHub/BaseGen/BaseGen/Content/ContentProject/Textures/Select.png</File>
+    <File>C:/Users/Aaron/Downloads/Documents/GitHub/BaseGen/BaseGen/Content/ContentProject/Textures/Minotaur.png</File>
+    <File>C:/Users/Aaron/Downloads/Documents/GitHub/BaseGen/BaseGen/Content/ContentProject/Textures/Torch.png</File>
+    <File>C:/Users/Aaron/Downloads/Documents/GitHub/BaseGen/BaseGen/Content/ContentProject/Textures/Fire.png</File>
+    <File>C:/Users/Aaron/Downloads/Documents/GitHub/BaseGen/BaseGen/Content/ContentProject/Textures/Spikes.png</File>
+  </SourceFiles>
+</SourceFileCollection>

@@ -1,0 +1,12 @@
+﻿Button:Button_1,1,1
+EditorButton:EditorButton_1,1,1
+IncreaseButton:IncreaseButton_1,1,1
+DecreaseButton:DecreaseButton_1,1,1
+StartEditorButton:StartEditorButton_1,1,1
+BackButton:BackButton_1,1,1
+BoolButton:Textfield_1,1,1
+TextField:TextField_1,1,1
+SmallButton:SmallButton_1,1,1
+SmallRowButton:SmallRowButton_1,1,1
+SmallColButton:SmallColButton_1,1,1
+SmallLevelButton:SmallLevelButton_1,1,1

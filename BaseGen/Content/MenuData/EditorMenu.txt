@@ -1,0 +1,17 @@
+﻿Name:EditorMenu
+IncreaseButton:200,175
+DecreaseButton:200,275
+IncreaseButton:300,175
+DecreaseButton:300,275
+IncreaseButton:400,175
+DecreaseButton:400,275
+SmallButton:200,225
+SmallButton:300,225
+SmallButton:400,225
+SmallRowButton:300,325
+SmallColButton:200,325
+SmallLevelButton:400,325
+BoolButton:195,150
+TextField:300,150
+BackButton:505,275
+StartEditorButton:505,175
