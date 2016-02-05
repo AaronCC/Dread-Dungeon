@@ -13,10 +13,10 @@ namespace BaseGen.Elements
     class Minotaur : Enemy
     {
         private int oldFollow;
-        private bool oldCol;
+        private float followDistance;
         public Minotaur(Vector2 _position, string _name) : base(_position, _name)
         {
-            oldCol = false;
+            followDistance = 86f;
             gravity = 0.2f;
             velocity = Vector2.Zero;
             maxVelocity = 5f;
@@ -44,28 +44,36 @@ namespace BaseGen.Elements
             next_topLeft = new Vector2(next_topLeft.X / Tile.height, next_topLeft.Y / Tile.width);
             topLeft = new Vector2(topLeft.X / Tile.height, topLeft.Y / Tile.width);
             topLeft.Y++;
+            //next_topLeft.X += (int)state.direction;
             TileType next_below_collision, forward_collision, below_collision;
             below_collision = Managers.Executive.level.CheckCollision((int)topLeft.X, (int)topLeft.Y);
             next_below_collision = Managers.Executive.level.CheckCollision((int)next_topLeft.X, (int)next_topLeft.Y + 1);
             forward_collision = Managers.Executive.level.CheckCollision((int)next_topLeft.X, (int)next_topLeft.Y);
             int d = 0;
-            Vector2 depth;
-            if (below_collision != TileType.Impassable)
+            Vector2 groundDepth = OnGround(new Point((int)topLeft.X, (int)topLeft.Y));
+            Vector2 wallDepth = CheckWall(next_topLeft);
+            if (below_collision == TileType.Passable)
                 ApplyGravity();
-            else if ((depth = OnGround(new Point((int)topLeft.X, (int)topLeft.Y))) != Vector2.Zero)
+            else if ((groundDepth) != Vector2.Zero)
             {
-                position.Y += depth.Y;
+                position.Y += groundDepth.Y;
                 velocity.Y = 0;
             }
             if (CheckAttack())
             {
                 SendStateInput(States.Enemy.EStateInput.PlayerCollision);
             }
+            //else if (wallDepth != Vector2.Zero)
+            //{
+            //    position += wallDepth;
+            //    SendStateInput(States.Enemy.EStateInput.Move);
+            //    SendStateInput(States.Enemy.EStateInput.SwitchDir);
+            //}
             else if (CheckFalling(next_below_collision) || CheckWall(forward_collision))
             {
                 if (CheckFollow() == 0)
                 {
-                    SendStateInput(States.Enemy.EStateInput.Move);   
+                    SendStateInput(States.Enemy.EStateInput.Move);
                     SendStateInput(States.Enemy.EStateInput.SwitchDir);
                 }
                 else
@@ -78,7 +86,7 @@ namespace BaseGen.Elements
                 if (oldFollow == 0)
                     NewAnimation(States.Enemy.EAnimState.Roar);
             }
-            else if(CheckNear() == 1)
+            else if (CheckNear() == 1)
                 SendStateInput(States.Enemy.EStateInput.Move);
             oldFollow = CheckFollow();
         }
@@ -88,7 +96,7 @@ namespace BaseGen.Elements
         }
         private bool CheckAttack()
         {
-            
+
             return Hitbox.Intersects(Managers.Executive.level.Player.Hitbox);
         }
         private bool CheckFalling(TileType below_collision)
@@ -96,6 +104,13 @@ namespace BaseGen.Elements
             if (!(below_collision == TileType.Impassable || below_collision == TileType.Platform))
                 return true;
             return false;
+        }
+        private Vector2 CheckWall(Vector2 next)
+        {
+            Vector2 depth;
+            if ((depth = Managers.Extensions.GetIntersectionDepth(Hitbox, new Rectangle((int)next.X, (int)next.Y, Tile.width, Tile.height))) != Vector2.Zero)
+                return depth;
+            return Vector2.Zero;
         }
         private bool CheckWall(TileType forward_collision)
         {
@@ -123,7 +138,7 @@ namespace BaseGen.Elements
         {
             if (CheckNear() == 0)
                 return 0;
-            if (Vector2.Distance(Managers.Executive.level.Player.Position, Position) < 64)
+            if (Vector2.Distance(Managers.Executive.level.Player.Position, Position) < followDistance)
             {
                 if (Managers.Executive.level.Player.Position.X < Position.X)
                     return -1;

@@ -244,25 +244,7 @@ namespace BaseGen.Managers
                 editing.ExportLevel(spriteBatch, changeIndex, editing.Index);
             editing.EditDraw(spriteBatch);
 
-            try
-            {
-                spriteBatch.DrawString(Main.font, Executive.tileData[input], new Vector2(User.mousePos.X + 10, User.mousePos.Y + 10), Color.White
-                    , 0f, Vector2.Zero, 0.5f, SpriteEffects.None, 0f);
-            }
-            catch
-            {
-                spriteBatch.DrawString(Main.font, "Null", new Vector2(User.mousePos.X + 10, User.mousePos.Y + 10), Color.White
-                    , 0f, Vector2.Zero, 0.5f, SpriteEffects.None, 0f);
-            }
             int i = 0;
-            if (help)
-                foreach (KeyValuePair<char, string> tile in Executive.tileData)
-                {
-                    i++;
-                    spriteBatch.DrawString(Main.font, tile.Key.ToString() + "  " + tile.Value, new Vector2(Managers.ScreenManager.virtualScreen.X - 350 + (150 * (i / 26)), 20 * i - (500 * (i / 26))), Color.White
-                         , 0f, Vector2.Zero, 0.5f, SpriteEffects.None, 0f);
-
-                }
             //if (filling)
                 //spriteBatch.DrawString(Main.font, "Filling", new Vector2(User.mousePos.X + 10, User.mousePos.Y + 30), Color.White);
             int x, y;
@@ -325,6 +307,24 @@ namespace BaseGen.Managers
             else if (!endFilling)
                 spriteBatch.Draw(selectTexture.sprite, new Rectangle(x - (x % Elements.Tile.width) - (int)Camera.Offset.X, y - (y % Elements.Tile.height) - (int)Camera.Offset.Y, Elements.Tile.width, Elements.Tile.height), Color.Green);
 
+            try
+            {
+                spriteBatch.DrawString(Main.font, Executive.tileData[input], new Vector2(User.mousePos.X + 10, User.mousePos.Y + 10), Color.White
+                    , 0f, Vector2.Zero, 0.5f, SpriteEffects.None, 0f);
+            }
+            catch
+            {
+                spriteBatch.DrawString(Main.font, "Null", new Vector2(User.mousePos.X + 10, User.mousePos.Y + 10), Color.White
+                    , 0f, Vector2.Zero, 0.5f, SpriteEffects.None, 0f);
+            }
+            if (help)
+                foreach (KeyValuePair<char, string> tile in Executive.tileData)
+                {
+                    i++;
+                    spriteBatch.DrawString(Main.font, tile.Key.ToString() + "  " + tile.Value, new Vector2(Managers.ScreenManager.virtualScreen.X - 350 + (150 * (i / 26)), 20 * i - (500 * (i / 26))), Color.White
+                         , 0f, Vector2.Zero, 0.5f, SpriteEffects.None, 0f);
+
+                }
         }
     }
 }

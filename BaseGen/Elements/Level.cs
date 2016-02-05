@@ -279,6 +279,7 @@ namespace BaseGen.Elements
                     //LoadBackTile("Back", x, y);
                     return LoadTile("Ramp", TileType.Polynomial);
                 case 'x':
+                    backTileMap[x, y] = LoadBackTile("Back0", x, y);
                     return LoadBreakBlock("BreakBlock", x, y);
                 //LoadBackTile("BreakBlock", x, y);
                 case 'o':
@@ -453,7 +454,7 @@ namespace BaseGen.Elements
             LoadNullLight(x, y);
             TileObject breakBlock = new BreakBlock(new Vector2(y * Tile.width, x * Tile.height), textureName);
             objects.Add(breakBlock);
-            return LoadTile("Back", TileType.Impassable);
+            return LoadTile("Back0", TileType.Impassable);
         }
         public Tile LoadStart(string textureName, int x, int y)
         {
