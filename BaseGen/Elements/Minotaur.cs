@@ -126,7 +126,6 @@ namespace BaseGen.Elements
         }
         private int CheckNear()
         {
-
             if (Math.Abs(player.Position.X - position.X) < Hitbox.Width / 2 && !CheckAttack())
             {
                 SendStateInput(States.Enemy.EStateInput.Stop);
