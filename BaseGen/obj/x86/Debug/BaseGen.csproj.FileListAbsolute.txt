@@ -245,3 +245,77 @@ C:\Users\Aaron\Documents\GitHub\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Tao.Sd
 C:\Users\Aaron\Documents\GitHub\Dread-Dungeon\BaseGen\obj\x86\Debug\BaseGen.csprojResolveAssemblyReference.cache
 C:\Users\Aaron\Documents\GitHub\Dread-Dungeon\BaseGen\obj\x86\Debug\BaseGen.exe.manifest
 C:\Users\Aaron\Documents\GitHub\Dread-Dungeon\BaseGen\obj\x86\Debug\BaseGen.application
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\obj\x86\Debug\BaseGen.exe
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\obj\x86\Debug\BaseGen.pdb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Music\Death Is The Answer.wav
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Music\Forever.wav
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Music\Homecoming.wav
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Music\Step By Step.wav
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Music\The Chosen One.wav
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Sounds\Running.wav
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Menus\Buttons\BackButton.cs
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Sounds\Running.ogg
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Arial.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Back0.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Back1.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Back2.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Back3.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Back4.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\BackButton.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\BoolButton.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Border.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\BPlatform.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\BreakBlock.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Button.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Chain.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\DecreaseButton.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\EditorButton.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\EditorMenu.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Fire.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Heart.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\IncreaseButton.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Ladder.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Level0.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Level1.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Light.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\LightL.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\LightR.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\LigntM.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Menu.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Minotaur.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\NoLight.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Platform.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Player.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Rail.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Ramp.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\RowColButton.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Saw.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Select.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Sign.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\SmallButton.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\SmallColButton.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\SmallLevelButton.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\SmallRowButton.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\SpikeBall.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Spikes.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Start.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\StartEditorButton.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\TextField.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Torch.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\TorchLight.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Victory.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Wall.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Wall0.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Wall1.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Wall2.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Wall3.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Wall4.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\Content\Textures\Weight.xnb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\BaseGen.exe.manifest
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\BaseGen.application
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\BaseGen.exe
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\bin\WindowsGL\Debug\BaseGen.pdb
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\obj\x86\Debug\BaseGen.csprojResolveAssemblyReference.cache
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\obj\x86\Debug\BaseGen.exe.manifest
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\obj\x86\Debug\BaseGen.application
+C:\Users\Aaron\Documents\Visual Studio 2015\Projects\Dread-Dungeon\BaseGen\obj\x86\Debug\BaseGen.csproj.CoreCompileInputs.cache

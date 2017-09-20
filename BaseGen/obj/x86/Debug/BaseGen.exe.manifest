@@ -50,7 +50,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>PBEIIC431SSWq0WqWBEKf83aHVM=</dsig:DigestValue>
+        <dsig:DigestValue>JYR2zsChdbJ8N1iXGwP5vtaWt6o=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -192,13 +192,13 @@
       <dsig:DigestValue>XW5f5XQLSGsiWCh31T80bRAnIvk=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Content\Save.txt" size="36">
+  <file name="Content\Save.txt" size="33">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>4g6OY/yFZZSLKcn0LSxXPQ101gs=</dsig:DigestValue>
+      <dsig:DigestValue>PjASr6QXc963agvfwqOwQ6DWqGc=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Content\SoundData\Music.txt" size="73">
